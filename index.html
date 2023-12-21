@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Bella Cucina</title>
+    <script src="https://kit.fontawesome.com/283335a286.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arima+Madurai:wght@700&family=Mulish:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <header class="encabezado">
+        <div class="contenedor-navegacion">
+            <div class="contenido-navegacion contenedor">
+                <div class="logo">
+                    <h2>Bella <span class="verde">Cu</span><span>ci</span><span class="rojo">na</span></h2>
+                </div>
+                <nav class="navegacion ocultar">
+                    <a href="#">Home</a>
+                    <a href="#">About Us</a>
+                    <a href="#">Menu</a>
+                    <a href="#">Chef</a>
+                    <a href="#">Contact</a>
+                </nav>
+                <div class="hamburguesa">
+                    <span></span><span></span><span></span>
+                </div>
+            </div>
+        </div>
+        <div class="contenido-header">
+            <div class="contenedor-encabezado">
+                <div class="texto-encabezado">
+                    <h2>Welcome!</h2>
+                    <a href="#" class="btn bordes">Il nostro menú</a>
+                </div>
+                <video autoplay loop muted>
+                    <source src="/assets/img/restaurente.webp" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </header>
+
+    <div class="contenedor-nosotros contenedor">
+        <div class="texto-nosotros">
+            <p class="bienvenida">Welcome to!</p>
+            <h1>Bella Cucina</h1>
+            <p>Bella Cucina, established in 1953 by the owner's grandfather, is a cherished Italian eatery embodying a rich family legacy. 
+                From its modest origins as a small trattoria, the restaurant has evolved into a culinary haven rooted in authentic Italian 
+                traditions. Passed down through generations, our recipes showcase a commitment to genuine flavors. Bella Cucina invites 
+                patrons to savor not just delicious dishes but also a story woven over decades, celebrating the enduring excellence of 
+                authentic Italian cuisine.
+            </p>
+            <a href="#" class="btn btn-rojo">Contact Us</a>
+        </div>
+        <div class="imagenes-nosotros">
+            <div class="imagen1">
+                <img data-src="assets/img/nosotros1.webp" alt="a woman eating pizza">
+            </div>
+            <div class="imagenes2">
+                <img data-src="assets/img/nosotros2.webp" alt="women eating pizza">
+                <img data-src="assets/img/nosotros3.webp" alt="a dish with pasta">
+            </div>
+        </div>
+    </div>
+
+    <section class="menu contenedor">
+        <h2 class="texto-platillos">Popular dishes</h2>
+        <div class="botones-platillos">
+            <button class="todos btn btn-verde">All</button>
+            <button class="ensaladas btn btn-verde">Salads</button>
+            <button class="pasta btn btn-verde">Pastas</button>
+            <button class="pizza btn btn-verde">Pizzas</button>
+            <button class="postres btn btn-verde">Deserts</button>
+        </div>
+        <div class="platillos">
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada.webp" alt="Spring Medley Salad">
+                <h2>Spring Medley Salad</h2>
+                <p>Tomatoes, Cucumber, Green beans, Carrot, Mushrooms, Cabbage, Lettuce, Nuts, Olives, Soy sprouts, Zucchini, Legumes.</p>
+                <div class="precio">
+                    <p>$10.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada2.webp" alt="Tropical Sea and Earth Salad">
+                <h2>Tropical Sea and Earth Salad</h2>
+                <p>Radish, Cherry tomatoes, Avocado, Kale, Mango, Lemon, Squid, Cauliflower, Arugula, Bell peppers.</p>
+                <div class="precio">
+                    <p>$12.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="ensalada">
+                <img data-src="assets/img/ensalada3.webp" alt="Cesar Salad">
+                <h2>Cesar Salad</h2>
+                <p>Romaine lettuce, Croutons, Caesar dressing, Parmesan cheese, Grilled chicken (optional).</p>
+                <div class="precio">
+                    <p>$14.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta1.webp" alt="Cannelloni">
+                <h2>Canelloni</h2>
+                <p>Savor our cannelloni: pasta tubes filled with a delicious mix of ricotta, spinach, and ground beef, baked to perfection and topped with savory tomato sauce.</p>
+                <div class="precio">
+                    <p>$18.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta2.webp" alt="Spaghetti">
+                <h2>Spaghetti</h2>
+                <p>Indulge in classic spaghetti, al dente pasta bathed in rich tomato sauce, topped with grated Parmesan and fresh basil for an authentic Italian experience..</p>
+                <div class="precio">
+                    <p>$17.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pasta">
+                <img data-src="assets/img/pasta3.webp" alt="Gnocchi">
+                <h2>Gnocchi</h2>
+                <p>Tender potato gnocchi with savory beef in a rich tomato sauce, a delightful Italian comfort.</p>
+                <div class="precio">
+                    <p>$19.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza1.webp" alt="Margherita Pizza">
+                <h2>Margherita Pizza</h2>
+                <p>Experience the timeless simplicity of our Margherita pizza, featuring a thin crust topped with fresh tomato sauce, creamy mozzarella, and aromatic basil leaves.</p>
+                <div class="precio">
+                    <p>$20.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza2.webp" alt="Salami Pizza">
+                <h2>Salami Pizza</h2>
+                <p>Enjoy a burst of flavor with our Salami Pizza – a perfect harmony of zesty tomato sauce, melted mozzarella, and savory salami slices atop a golden, crispy crust.</p>
+                <div class="precio">
+                    <p>$22.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="pizza">
+                <img data-src="assets/img/pizza3.webp" alt="Special Pizza">
+                <h2>Special Pizza</h2>
+                <p>Savor our Special Pizza, a delightful medley of flavors with vibrant bell peppers, earthy mushrooms, juicy tomatoes, sweet onions, and melted cheese atop a perfect crust.</p>
+                <div class="precio">
+                    <p>$24.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres1.webp" alt="Tiramisú">
+                <h2>Tiramisú</h2>
+                <p>A classic Italian delight featuring layers of delicate ladyfingers soaked in espresso and layered with velvety mascarpone cream, dusted with cocoa for a perfect finish.</p>
+                <div class="precio">
+                    <p>$7.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres2.webp" alt="Chocolate Desert">
+                <h2>Chocolate Paradise</h2>
+                <p>Savor our Chocolate Delight adorned with cherries — a heavenly treat of rich, layered chocolate perfection.</p>
+                <div class="precio">
+                    <p>$7.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+            <div class="platillo" data-platillo="postre">
+                <img data-src="assets/img/postres3.webp" alt="Cheesecake">
+                <h2>Cheesecake</h2>
+                <p>A creamy delight with a velvety texture and a delicious graham cracker crust, topped with your choice of fruit compote or classic drizzle</p>
+                <div class="precio">
+                    <p>$7.0</p>
+                    <button><i class="fas fa-shopping-basket"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div class="separador">
+        <div class="contenido-separador contenedor">
+            <h2>Italian food to start the day.</h2>
+            <p>Start your day with delicious food or an Italian coffee.</p>
+            <a href="#" class="btn btn-verde">Order Now</a>
+        </div>
+    </div>
+
+    <section class="chef contenedor">
+        <h2>Executive Chef</h2>
+        <div class="contenido-chef">
+            <div class="texto-chef">
+                <h3>Meet our Executive Chef, the culinary maestro behind our extraordinary dishes. 
+                </h3>
+                <p> With a passion for innovation and a 
+                    commitment to using the finest ingredients, our Executive Chef crafts a symphony of flavors that elevate the dining 
+                    experience to new heights. Explore the culinary artistry that defines our restaurant and discover the unique touch 
+                    that our Executive Chef brings to every plate.</p>
+                <a href="#" class="btn btn-verde">Read Biography</a>
+            </div>
+            <!--<div class="imagen-chef">
+                <img data-src="/assets/img/chef.webp" alt="fotografia del chef">
+            </div>-->
+        </div>
+    </section>
+
+    <div class="formulario-contacto contenedor">
+
+        <div class="informacion-contacto">
+            <h3>Contact Us</h3>
+            <p><i class="fas fa-map-marker-alt"></i>123 Maple Street, Hometown, CA 98765</p>
+            <p><i class="fas fa-envelope"></i> bella@cucina.it</p>
+            <p><i class="fas fa-phone-alt"></i>(555) 123-4567</p>
+            <div class="redes-sociales">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-twitter-square"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+        </div>
+
+        <form class="formulario">
+            <div class="input-formulario">
+                <label for="nombre">First Name</label>
+                <input type="text" placeholder="Tomás" id="nombre">
+            </div>
+            <div class="input-formulario">
+                <label for="apellidos">Last Name</label>
+                <input type="text" placeholder="Piccato" id="apellidos">
+            </div>
+            <div class="input-formulario">
+                <label for="correo">Email</label>
+                <input type="email" placeholder="example@example.com" id="correo">
+            </div>
+            <div class="input-formulario">
+                <label for="telefono">Telephone</label>
+                <input type="tel" placeholder="+90 543 779 9410" id="telefono">
+            </div>
+            <div class="input-formulario">
+                <label for="mensaje">Message</label>
+                <textarea></textarea>
+            </div>
+            <div class="btn-formulario">
+                <input type="submit" class="btn btn-verde" value="Send">
+            </div>
+            
+        </form>
+    </div>
+    <div class="pie-pagina ">
+        <div class="contenedor-piepagina contenedor">
+            <div class="info">
+                <h3>Address</h3>
+                <p>123 Maple Street, Hometown, CA 98765</p>
+            </div>
+            <div class="info">
+                <h3>Special days</h3>
+                <p>Thursdays and Saturdays 8am - 11pm</p>
+                <p>(555) 123-4567</p>
+            </div>
+            <div class="info">
+                <h3>Hours</h3>
+                <p>Monday - Sunday 9am - 11pm</p>
+                <div class="redes-sociales redes-pie">
+                    <i class="fab fa-facebook-square"></i>
+                    <i class="fab fa-twitter-square"></i>
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="info">
+                <h3>News</h3>
+                <p>Subscribe to receive more news.</p>
+                <input type="email" placeholder="Your email">
+                <input type="submit" class="btn btn-verde" value="Subscribirse">
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>All rights reserved &copy; 2023 Bella Cucina, developed by Paulo Alberione</p>
+    </footer>
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>
